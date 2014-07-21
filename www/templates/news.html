@@ -1,0 +1,8 @@
+<ion-view title="News"><ion-nav-buttons side="left"><button menu-toggle="left" class="button button-icon icon ion-navicon"></button></ion-nav-buttons><ion-nav-buttons side="right"><button class="button button-icon icon ion-search" ng-click="showFilter();">{{search.categories}}</button></ion-nav-buttons><ion-content class="has-header dark"><ion-refresher pulling-text="Rilascia per aggiornare..." on-refresh="doRefresh()"></ion-refresher><div class="pad-sides pad-news" masonry=""><div class="masonry-brick" ng-repeat="article in articles | filter:search:strict | orderBy:'pubDate':true" ng-click="showArticle(article)"><div class="brick-img" ng-style="{'background-image': getimage(article) }"></div><span class="article-title" ng-class="'article-title'">{{article.title}}</span></div></div><!--
+		<div class="pad-sides pad-news" masonry="{columnWidth: 30, gutter: 1, transitionDuration: '.5s', hiddenStyle: {opacity: .001, transform: 'scale(0.01)'}, visibleStyle: {opacity: 1, transform: 'scale(1)'}}">
+			<div class="masonry-brick" ng-repeat="article in articles | filter:search:strict | orderBy:'pubDate':true" ng-click="showArticle(article)">
+				<div class="brick-img" ng-style="{'background-image': getimage(article) }"></div>
+				<span class="article-title" ng-class="'article-title'">{{article.title}}	</span>
+			</div>
+		</div>
+--></ion-content></ion-view>

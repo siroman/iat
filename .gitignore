@@ -1,4 +1,6 @@
 .tmp
+.idea
+plugins
 app
 node_modules
 .sass-cache
