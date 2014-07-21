@@ -1,0 +1,14 @@
+.tmp
+app
+node_modules
+.sass-cache
+.DS_Store
+test
+coverage
+.bowerrc
+.editorconfig
+.jshintrc
+bower.json
+config.xml
+Gruntfile.js
+package.json
