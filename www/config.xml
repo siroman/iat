@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<widget id="com.hi-keep.ItaliaATavola" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+	<name>ItaliaATavola</name>
+	<description>
+		Italia a Tavola mobile app
+	</description>
+	<author email="me@siroman.it" href="http://www.siroman.it">
+		Unconventional dev
+	</author>
+	<content src="index.html" />
+	<access origin="*" />
+	<gap:plugin name="org.apache.cordova.inappbrowser" version="0.3.3" />
+  <gap:plugin name="nl.x-services.plugins.socialsharing" version="4.3.0" />
+  <gap:plugin name="nl.x-services.plugins.toast" version="2.0" />
+</widget>
