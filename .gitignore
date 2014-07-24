@@ -11,6 +11,8 @@ coverage
 .editorconfig
 .jshintrc
 bower.json
-config.xml
+./config.xml
 Gruntfile.js
 package.json
+builds
+apple provisioning profile
