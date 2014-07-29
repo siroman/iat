@@ -23,6 +23,12 @@
   <!-- ios specific preferences -->
   <preference name="target-device" value="tablet" />
   <preference name="prerendered-icon" value="true" />
+  <gap:config-file platform="ios" parent="UIStatusBarHidden">
+    <true/>
+  </gap:config-file>
+  <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance">
+    <false/>
+  </gap:config-file>
 
   <!--
       If you do not want any permissions to be added to your app, add the
@@ -67,7 +73,6 @@
 
   <!-- Core plugins -->
   <gap:plugin name="org.apache.cordova.console"/>
-  <gap:plugin name="org.apache.cordova.contacts"/>
   <gap:plugin name="org.apache.cordova.device"/>
   <gap:plugin name="org.apache.cordova.dialogs"/>
   <gap:plugin name="org.apache.cordova.file"/>
