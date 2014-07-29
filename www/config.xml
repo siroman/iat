@@ -19,6 +19,7 @@
   <gap:platform name="ios"/>
   <gap:platform name="android"/>
 
+  <preference name="fullscreen" value="true" />
   <!-- ios specific preferences -->
   <preference name="target-device" value="tablet" />
   <preference name="prerendered-icon" value="true" />
